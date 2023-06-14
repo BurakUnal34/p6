@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/wallet.css" />
+    <title>Anasayfa</title>
+  </head>
+  <body>
+    <div class="c-wrapper">
+      <div class="container">
+        <!-- Navbar !-->
+        <nav class="navbar">
+          <!-- Logo !-->
+          <a id="brand" href="index.html">Logo</a>
+          <ul class="nav-list">
+            <!-- Link 1 !-->
+            <li class="nav-item">
+              <a class="nav-link" href="/html/index.html">Home</a>
+            </li>
+            <!-- Link 2 !-->
+            <li class="nav-item">
+              <a class="nav-link" href="/html/about.html">About</a>
+            </li>
+            <!-- Link 3 !-->
+            <li class="nav-item">
+              <a class="nav-link" href="/html/sign-in.html">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/wallet.html">Connect Wallet</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container-01">
+            <div class="top">
+              <h1>Plans & Pricing</h1>
+              <div class="toggle-btn">
+                <span style="margin: 0.8em;">Annually</span>
+                <label class="switch">
+                  <input type="checkbox" id="checbox" onclick="check()" ; />
+                  <span class="slider round"></span>
+                </label>
+                <span style="margin: 0.8em;">Monthly</span></div>
+            </div>
+        
+            <div class="package-container">
+              <div class="packages">
+                <h1>Basic</h1>
+                <h2 class="text1">&dollar;9.99</h2>
+                <h2 class="text2">&dollar;119.99</h2>
+                <ul class="list">
+                  <li class="first">2000 Subscribers</li>
+                  <li>12,000 Emails/month</li>
+                  <li>Multi-User Accounts</li>
+                  <li>Email Support</li>
+                </ul>
+                <a href="#" class="button button1">Start Now</a>
+              </div>
+              <div class="packages">
+                <h1>Professional</h1>
+                <h2 class="text1">&dollar;19.99</h2>
+                <h2 class="text2">&dollar;239.99</h2>
+                <ul class="list">
+                  <li class="first">Basic +</li>
+                  <li>Landing Pages</li>
+                  <li>Pop-up Forms</li>
+                  <li>Premium Support</li>
+                </ul>
+                <a href="#" class="button button2">Start Now</a>
+              </div>
+              <div class="packages">
+                <h1>Master</h1>
+                <h2 class="text1">&dollar;29.99</h2>
+                <h2 class="text2">&dollar;359.99</h2>
+                <ul class="list">
+                  <li class="first">Professional +</li>
+                  <li>Marketing Automation</li>
+                  <li>Instagram Ads</li>
+                  <li>Facebook Ads</li>
+                </ul>
+                <a href="#" class="button button3">Start Now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="/js/wallet.js"></script>
+  </body>
+</html>
